@@ -1,5 +1,5 @@
 
-## EDL-3: Command-line Interface
+## ELD-3: Command-line Interface
 
 Command-line interfaces are APIs which are used by both humans and machines. Developers depend on CLIs which are thoughtfully designed to be memorable and effective. The best CLIs -- the ones we all use, regardless of circumstance -- are well documented, respect natural CLI conventions, and work hard to be easy to understand and remember at an intuitive level.
 

@@ -1,5 +1,5 @@
 
-## EDL-2: Tooling
+## ELD-2: Tooling
 
 Tools are incredibly important in any endeavor where something is built. Software developers use so many tools: package managers, test runners, linters, compilers, and runtimes, to name a few. Modern runtimes should do what they can to make this story simpler for developers.
 

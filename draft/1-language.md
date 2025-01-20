@@ -1,5 +1,5 @@
 
-## EDL-1: Language
+## ELD-1: Language
 
 People love their favorite languages; Python makes sense to Pythonistas. JavaScript and TypeScript make sense to the web development world. Java and Kotlin developers will go on for hours about the value of the JDK and JVM.
 
