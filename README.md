@@ -8,3 +8,4 @@ Imperfect notes about how a perfect runtime might behave.
 | [**ELD-2**](./draft/2-tooling.md)  | Tooling  | Explores unified developer tooling ideas. |
 | [**ELD-3**](./draft/3-cli.md)      | Command-line Interface | Explores how Elide should operate as a command-line tool. |
 | [**ELD-4**](./draft/4-native.md)      | Native Interface | Explores Elide's structure for native dispatch. |
+| [**ELD-5**](./draft/5-libc.md)      | LibC | Explores Elide's strategy for LibC support. |
