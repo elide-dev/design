@@ -11,4 +11,3 @@ Imperfect notes about how a perfect runtime might behave.
 | [**ELD-5**](./draft/5-libc.md)     | LibC                   | Explores Elide's strategy for LibC support.               |
 | [**ELD-6**](./draft/6-finalbin.md) | End-user Binaries      | Explores support for end-user target binaries             |
 | [**ELD-7**](./draft/7-config.md)   | Infra & Config as Code | Explores support for {infra,config}-as-code               |
-3
