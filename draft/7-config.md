@@ -1,4 +1,3 @@
-
 ## ELD-7: Infra & Config as Code
 
 Modern software applications are a confluence of many things in addition to source code: documentation, configuration material, dependencies, and more, all come together to produce a final product.

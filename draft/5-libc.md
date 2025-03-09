@@ -1,4 +1,3 @@
-
 ## ELD-5: LibC / System Interface
 
 Elide should, through GraalVM, endeavor to support multiple LibC targets, including `glibc`, `musl`, and, ideally, [Cosmopolitan LibC](https://github.com/jart/cosmopolitan). There are good reasons to support each:

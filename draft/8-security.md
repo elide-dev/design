@@ -1,4 +1,3 @@
-
 ## ELD-8: Memory Safety & Security
 
 GraalVM implements a JIT-enabled JVM in Java, which is itself a memory-safe language; as the singular basis for descendent VMs via [Futamura projection](https://en.wikipedia.org/wiki/Partial_evaluation), downstream products such as Elide also enjoy these safety guarantees.

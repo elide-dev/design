@@ -1,4 +1,3 @@
-
 ## ELD-6: End-user Binaries
 
 GraalVM implements a [Futamura Projection](https://speakerdeck.com/evacchi/dr-futamuras-projection-machine-from-interpreters-to-compilers-through-a-marvelous-device); it is "turtles all the way down." Accordingly, the [`native-image` binary is itself a native image, built from Java sources](https://github.com/oracle/graal/blob/master/substratevm/src/com.oracle.svm.driver/src/com/oracle/svm/driver/NativeImage.java#L1984-L1986).

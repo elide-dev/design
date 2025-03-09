@@ -1,4 +1,3 @@
-
 ## ELD-4: Native Interface
 
 Elide will need to provide an interface for native integration, similar to the (native) Node-API or to V8's embedder APIs; this need has arisen several times for Elide's own internal projects or for extension demands downstream from the VM.
