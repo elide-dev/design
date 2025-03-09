@@ -20,6 +20,11 @@ Some expectations that developers have for CLI tools:
 
 - **On-disk footprint and layout should be conventional.** Command-line tools should place their configuration files, cache files, data files, and other ephemera in places on-disk where the developer expects to find them.
 
+#### Relevant conventions and standards
+
+- [CLIG](https://clig.dev/) (Command Line Interface Guidelines)
+- [Extended Directories Guide](https://dirs.dev/) (Standardized Directories)
+
 ### Elide is a runtime.
 
 Elide's main purpose is to run guest code; this makes it a runtime. Being a runtime is a tough job: you must provide as much value to the developer as you can, while occupying as little space as possible (on-disk, in-memory, and cognitively). A runtime's code is necessarily baseline overhead for all applications built on top of it, and developers are keenly aware of this cost.
@@ -45,6 +50,11 @@ JavaScript runtimes bring their own package of expectations and conventions. Man
 - **It should feel like a browser when it makes sense to do so.** Server-side JS runtimes now support features like `fetch(...)`, and will raise similar exceptions to those raised in a browser. Node's API mirrors browser APIs in key ways, and the gap is closing between these two in order to reduce cognitive load and implementation complexity. Elide should follow this trend.
 
 - **It should start up fast.** V8 and JSC are very good at this, having been designed for use in browser engines with a tab- or window-oriented isolation system. Servers are not a natural fit for this pattern, but CLI tools are. This is one of Node's great insights, and one Elide should study, understand, and adopt.
+
+#### Relevant conventions and standards
+
+- [ECMA262](https://ecma-international.org/publications-and-standards/standards/ecma-262/) (ECMAScript Language Standard)
+- [WinterTC](https://wintertc.org/) (Web-Interoperable Runtimes Group)
 
 #### Elide runs TypeScript.
 
