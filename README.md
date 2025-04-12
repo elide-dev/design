@@ -14,3 +14,4 @@ Imperfect notes about how a perfect runtime might behave.
 | [**ELD-8**](./draft/8-security.md)      | Memory Safety & Security     | Explores memory safety and security topics                |
 | [**ELD-9**](./draft/9-entrypoint.md)    | Entrypoint Strategy          | Explores how Elide's initial entrypoint should work       |
 | [**ELD-10**](./draft/10-conventions.md) | Conventions & API Compliance | Explores conventions and APIs which Elide should adopt    |
+| [**ELD-11**](./draft/11-jvm-kotlin.md)  | JVM & Kotlin Support         | Explores how Kotlin should behave on Elide |
