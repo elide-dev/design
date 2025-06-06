@@ -15,3 +15,4 @@ Imperfect notes about how a perfect runtime might behave.
 | [**ELD-9**](./draft/9-entrypoint.md)    | Entrypoint Strategy          | Explores how Elide's initial entrypoint should work       |
 | [**ELD-10**](./draft/10-conventions.md) | Conventions & API Compliance | Explores conventions and APIs which Elide should adopt    |
 | [**ELD-11**](./draft/11-jvm-kotlin.md)  | JVM & Kotlin Support         | Explores how Kotlin should behave on Elide |
+| [**ELD-12**](./draft/12-drop-in-homes.md)  | `*_HOME` Support         | Explores how Elide could slot in for `*_HOME` variables |
